@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+a {
+  color: #3e74b6;
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.container-img {
+  width: 50%;
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-field {
+  width: 50%;
+
+  padding-top: 232px;
+}
+
+.content-container {
+  width: fit-content;
+  min-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.common-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #2D3748;
+}
+
+.header-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  
+  color: #1A202C;
+}
+
+.field-login {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 28px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 27px;
+}
+
+.field-label {
+  margin-bottom: 11px;
+  margin-top: 11px;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #4A5568;
+}
+
+.main-input {
+  height: 50px;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  padding: 0px 8px;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #2D3748;
+}
+
+.confirmation {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.radio-text {
+  padding-left: 11px;
+}
+
+.radio-link {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.button-login {
+  width: 100%;
+  height: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.button-login:first-child {
+  margin-bottom: 7px;
+}
+
+.button-login:last-child {
+  margin-top: 7px;
+}
+
+.primary {
+  background: #04C45C;
+  border: none;
+  border-radius: 5px;
+}
+
+.standart {
+  background: #2D3748;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-icon {
+  vertical-align: bottom;
+  margin-right: 11px;
+}
+
+.registration-link {
+  position: relative;
+  padding-top: 162px;
+  padding-bottom: 50px;
+}
+
+.text-link {
+  text-align: center;
+}
